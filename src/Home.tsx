@@ -483,15 +483,15 @@ const Home = (props: HomeProps) => {
         <main>
             <MainContainer>
                 <WalletContainer>
-                    <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
+                    <Logo><a href="http://localhost:3000/" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="#bobers" rel="noopener noreferrer">BOBERS</a>
                         </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                        <li><a href="#roadmap"
+                               rel="noopener noreferrer">ROADMAP</a></li>
+                        <li><a href="#creators"
+                               rel="noopener noreferrer">CREATORS</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -506,7 +506,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>BOB</h2>
+                            <h2>BOBERS NFT</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -580,19 +580,19 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHAT ARE BOBERS</GoldTitle></LogoAligner>
+                            <LogoAligner id="bobers"><img src="logo.png" alt=""></img><GoldTitle>WHAT ARE BOBERS</GoldTitle></LogoAligner>
                             <p>1. This is the most dangereus bobers on the earth</p>
                             <p>2. OOOOh hey bored apps club sucks</p>
                             <p>3. Makes me feeld better</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ROADMAP</GoldTitle></LogoAligner>
+                            <LogoAligner id="roadmap"><img src="logo.png" alt=""></img><GoldTitle>ROADMAP</GoldTitle></LogoAligner>
                             <p>MAKE SHITY NFT</p>
                             <p>DROP IT TO THE PUBLIC</p>
                             <p>SCUM THEM</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>CREATORS</GoldTitle></LogoAligner>
+                            <LogoAligner id="creators"><img src="logo.png" alt=""></img><GoldTitle>CREATORS</GoldTitle></LogoAligner>
                             <a href="https://okchain.tech/"><p>OKCHAIN</p></a>
                             <a href="https://studio.youtube.com/channel/UCXV6YPUWPzxVuN_5ffq96mA/"><p>YOUTUBE</p></a>
                             <a href="https://t.me/zalupa_trade"><p>TELEGRAM</p></a>
