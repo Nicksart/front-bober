@@ -1,0 +1,15 @@
+{
+  "name": "NFT",
+  "symbol": "GODA22",
+  "description": "DESC TEST",
+  "image": "https://bobers-nft.vercel.app/logo.png",
+  "external_url": "https://bobers-nft.vercel.app/",
+   "properties": {
+    "files": [
+      {
+        "uri": "https://491273457634923.com/53047.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}
